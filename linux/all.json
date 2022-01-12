@@ -1,0 +1,10 @@
+{
+    "autocompletion": {
+        "enabled": true,
+        "latest_version": "0.1.0.dev.1",
+        "description": "Autocompletion",
+        "github_url": "https://github.com/Heficience/autocompletion/",
+        "install": "install_autocompletion.sh",
+        "uninstall": "uninstall_autocompletion.sh"
+    }
+}
