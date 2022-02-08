@@ -4,7 +4,7 @@ echo "heficience.com"
 echo "=========================="
 
 echo "Installing dependencies..."
-sudo apt install libx11-dev libxdo-dev -y
+sudo apt install libx11-dev libxdo-dev curl -y
 echo "Downloading latest version of autocompletion"
 wget $(curl -s https://api.github.com/repos/Heficience/autocompletion/releases/latest | grep "autocompletion_linux" | awk '{print $2}' | sed 's|[\"\,]*||g'
 autocompletion_linux)
